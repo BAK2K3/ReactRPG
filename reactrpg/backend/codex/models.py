@@ -162,8 +162,7 @@ class Codex(models.Model):
     paid = models.BooleanField(default=False)
     min_level = models.IntegerField(choices=[(i, i) for i in range(1, 6)],
                                     null=True, blank=True)
-
-    # No Model Manager for the time being
+    objects = CodexManager()
 
     def __str__(self):
         return self.name
