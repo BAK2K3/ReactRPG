@@ -219,7 +219,7 @@ class Codex(models.Model):
         """
         Method for generating a new enemy.
         Method takes in Paid Status and User Level.
-        Level of the Enemy is detemined at random.
+        Level of the Enemy is determined at random.
         The base stats of the enemy generated are modified
         n number of times, where n is the monster's level, based
         on the current monster's level.
