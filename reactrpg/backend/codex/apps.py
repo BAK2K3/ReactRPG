@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class CodexConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'codex'
+    name = 'reactrpg.backend.codex'
